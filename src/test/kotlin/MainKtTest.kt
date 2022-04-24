@@ -242,7 +242,7 @@ class MainKtTest {
         val cardType = CardTypes.MASTERCARD
         val amount = 1U
         val monthRecieveAmount = LIMIT_PER_MONTH
-        val expectedResult = false
+        val expectedResult = true
 
         val result =
             checkLimits(cardType = cardType, amount = amount, monthRecieveAmount = monthRecieveAmount)
